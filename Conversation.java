@@ -80,7 +80,7 @@ class Conversation implements ConversationRequirements {
       "Interesting.",
       "Mmm-hm.",
       "Tell me more.",
-      "Waht do you think?"
+      "What do you think?"
     };
 
     return cannedResponses[rand.nextInt(cannedResponses.length)];
@@ -91,6 +91,5 @@ class Conversation implements ConversationRequirements {
     Conversation myConversation = new Conversation();
     myConversation.chat();
     myConversation.printTranscript();
-
   }
 }
